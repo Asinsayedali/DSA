@@ -71,9 +71,6 @@ class MyLinkedList:
 
 
 
-            
-        
-
     def deleteAtIndex(self, index: int) -> None:
         if not self.head:
             return
