@@ -5,7 +5,7 @@ for i in range(n):
     array.append(value)
 
 # insertion sort implementation
-for i in range(len(array)):
+for i in range(1, len(array)):
     j = i-1
     while j>=0 and array[j+1] < array[j]:
         temp = array[j+1]
